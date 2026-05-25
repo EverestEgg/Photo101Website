@@ -54,7 +54,8 @@ body{
 
 .vertimg{
   display: flex;
-  width: 65%;
+  height: 110vh;
+  /* width: 65%; */
 }
 
 #back{
@@ -69,7 +70,28 @@ body{
   
 }
 
-#img12{
+#img13{
   margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: small;
+    width: 80%;
+    
+  }
+  .images{
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 80%;
+  }
+  .vertimg{
+    width: 90%;
+    object-fit:cover;
+  }
+  #back{
+   width: 95vw;
+   left: 2.5%;
+  }
 }
 
