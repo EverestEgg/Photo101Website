@@ -39,7 +39,7 @@ p {
 
 body {
   background-color: rgb(4, 0, 8);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 /* .Flexcon{
   position: relative;
