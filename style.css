@@ -2,10 +2,10 @@
   height: 90vmin;
   object-fit: contain;
 } */
- /* ok Css plese work */
- *{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
- }
+/* ok Css plese work */
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 
 .images {
   margin-top: 1%;
@@ -17,7 +17,7 @@
   object-fit: contain;
 }
 
-h1{
+h1 {
   color: white;
   margin-top: 4%;
 
@@ -27,18 +27,19 @@ h1{
   text-align: center;
 }
 
-p{
+p {
   color: white;
   width: 40%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   margin-bottom: 2%;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-body{
- background-color: rgb(4, 0, 8);
+body {
+  background-color: rgb(4, 0, 8);
+  overflow: hidden;
 }
 /* .Flexcon{
   position: relative;
@@ -52,13 +53,13 @@ body{
 
 } */
 
-.vertimg{
+.vertimg {
   display: flex;
   height: 110vh;
   /* width: 65%; */
 }
 
-#back{
+#back {
   z-index: -1;
   position: fixed;
   top: -10%;
@@ -67,10 +68,9 @@ body{
   left: 7.5%;
   background-color: rgb(2, 0, 5);
   opacity: 100%;
-  
 }
 
-#img13{
+#img13 {
   margin-bottom: 5%;
 }
 
@@ -78,20 +78,18 @@ body{
   p {
     font-size: small;
     width: 80%;
-    
   }
-  .images{
+  .images {
     margin-top: 0px;
     padding-top: 0px;
     width: 80%;
   }
-  .vertimg{
+  .vertimg {
     width: 90%;
-    object-fit:cover;
+    object-fit: cover;
   }
-  #back{
-   width: 95vw;
-   left: 2.5%;
+  #back {
+    width: 95vw;
+    left: 2.5%;
   }
 }
-
